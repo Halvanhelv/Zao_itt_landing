@@ -1,0 +1,37 @@
+.Personal_Area
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #666666;
+    
+    
+}
+.Personal_Area div
+{
+
+    
+    
+    text-align: center;
+    
+}
+
+.Personal_area p
+{
+    
+}
+.Personal_Area h1
+{
+    font-size: 40px;
+    font-weight: 100;
+}
+.input
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:end;
+    font-size: 18px;
+}
+.input input
+{
+    padding: 5px;
+}
