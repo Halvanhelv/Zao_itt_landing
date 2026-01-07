@@ -1,16 +1,16 @@
-// Функция ymaps.ready() будет вызвана, когда
-    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+// The ymaps.ready() function will be called when
+    // all API components are loaded and the DOM tree is ready.
     ymaps.ready(init);
-    function init(){ 
-        // Создание карты.    
+    function init(){
+        // Creating the map.
         var myMap = new ymaps.Map("map", {
-            // Координаты центра карты.
-            // Порядок по умолчанию: «широта, долгота».
-            // Чтобы не определять координаты центра карты вручную,
-            // воспользуйтесь инструментом Определение координат.
+            // Map center coordinates.
+            // Default order: "latitude, longitude".
+            // To avoid determining map center coordinates manually,
+            // use the Coordinate Detection tool.
             center: [43.23362301, 44.74379050],
-            // Уровень масштабирования. Допустимые значения:
-            // от 0 (весь мир) до 19.
+            // Zoom level. Valid values:
+            // from 0 (whole world) to 19.
             zoom: 17
         });
     }
